@@ -88,7 +88,7 @@ input:focus{
 .table_class_thead{
 	background-color: rgb(252, 244, 252);
 	height: 60px;
-	border-top: 1px ridge rgb(141, 140, 140);
+	border-top: 0.5px solid rgb(206, 203, 203);
 }
 .table_class_thead tr th{
 	color: gray;
@@ -96,7 +96,7 @@ input:focus{
 }
 
 .table_class tbody tr{
-	border-top: 1px ridge rgb(141, 140, 140);
+	border-top: 0.5px solid rgb(206, 203, 203);
 }
 
 .table_class tbody tr td{
