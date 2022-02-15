@@ -33,6 +33,7 @@ function View() {
         let itemId;
         if (dataCollection) {
             let filterableData = Object.entries(dataCollection);
+							//eslint-disable-next-line
             let filteredData = filterableData.map((item) => {
                 if (item[1].id === id) {
                     itemId = item[0];

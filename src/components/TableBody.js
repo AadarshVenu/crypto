@@ -6,6 +6,7 @@ import * as BsIcons from "react-icons/bs";
 function TableBody (props) {
   const { pages } = props
   const navigate = useNavigate()
+	//eslint-disable-next-line
 	const[savedData,setSavedData]=useState()
 	const[isSaved,setIsSaved]=useState()
 	const[savedId,setSavedId]=useState()
